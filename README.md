@@ -68,6 +68,12 @@ Este projeto faz parte dos **Challenges Alura**, uma iniciativa do programa **ON
 ### Realizando o Sorteio:
 <img src="assets/sortear-amigo.gif" alt="Realizando o sorteio" width="600" />
 
+---
+
+## 🌐 Acesse o Projeto
+
+O projeto está publicado no GitHub Pages e pode ser acessado através do link abaixo:  
+➡️ [**Amigo Secreto no GitHub Pages**](https://mateussanfer.github.io/challenge-amigo-secreto-ONE/)
 
 ---
 
