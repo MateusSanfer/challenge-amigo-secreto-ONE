@@ -46,7 +46,7 @@ Este projeto faz parte dos **Challenges Alura**, uma iniciativa do programa **ON
 1. **Clonar o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/MateusSanfer/challenge-amigo-secreto-ONE.git
    ```
 
 2. **Abrir o arquivo HTML**:
