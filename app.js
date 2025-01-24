@@ -4,15 +4,12 @@ let amigos = [];
 
 function adicionarAmigo() {
   let amigo = document.getElementById("amigo").value;
-
   if (amigo.trim().length === 0) {
     alert("Por favor, insira um nome.");
   } else {
     amigos.push(amigo);
-
     adicionarAmigosLista(amigos);
   }
-
   limparCampo();
 }
 
@@ -20,10 +17,8 @@ function limparCampo() {
   let amigoInput = document.getElementById("amigo");
   amigoInput.value = "";
 }
-
 function adicionarAmigosLista(amigos) {
   let lista = document.getElementById("listaAmigos");
-
   lista.innerHTML = "";
 
   for (let i = 0; i < amigos.length; i++) {
@@ -34,16 +29,17 @@ function adicionarAmigosLista(amigos) {
 }
 
 function sortearAmigo() {
-  if (amigos.length === "") {
+  if (amigos.length === 0) {
     alert("Não há amigos para sortear!");
     return;
   }
-
   const amigoAleatorio = Math.floor(Math.random() * amigos.length);
   const amigoSorteado = amigos[amigoAleatorio];
 
   let resultado = document.getElementById("resultado");
-  resultado.innerHTML = `Amigo Sorteado: ${amigoSorteado}`;
-  // let lista = document.getElementById("listaAmigos");
-  // lista.innerHTML = "";
+  resultado.innerHTML = `O amigo secreto sorteado é: ${amigoSorteado}`;
+  let lista = document.getElementById("listaAmigos");
+  // Caso que eu queira apenas esconder a lista e manter o array inalterado.
+  //lista.style.display = "none";
+  lista.innerHTML = "";
 }
